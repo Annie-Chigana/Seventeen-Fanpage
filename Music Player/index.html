@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <header>
+        <a id="back" href="../index.html">Back</a>
+    </header>
+
+    <div class="covers" id="album-covers" data-mouse-down-at="0" data-prev-percentage="0">
+        <img id="sev" draggable="false" src="covers/17 Carat.jpg">
+        <img id="byb" draggable="false" src="covers/Boys be.jpg">
+        <img id="fll" draggable="false" src="covers/First love and letter.jpg">
+        <img id="lal" draggable="false" src="covers/Love & Letter.jpg">
+        <img id="gos" draggable="false" src="covers/Going Seventeen.jpg">
+        <img id="al1" draggable="false" src="covers/Al1.jpg">
+        <img id="tna" draggable="false" src="covers/Teen Age.jpg">
+        <img id="drc" draggable="false" src="covers/Director's Cut.jpg">
+        <img id="wmy" draggable="false" src="covers/We make you.png">
+        <img id="ymdw"draggable="false"  src="covers/You made my day.jpg">
+        <img id="ymd" draggable="false" src="covers/You made my dawn.jpg">
+        <img id="ano" draggable="false" src="covers/An Ode.jpg">
+        <img id="hgr" draggable="false" src="covers/Heng gare.jpg">
+        <img id="24h" draggable="false" src="covers/24h.jpg">
+        <img id="smc" draggable="false" src="covers/Semicolon.jpg">
+        <img id="ycc" draggable="false" src="covers/Your Choice.jpg">
+        <img id="att" draggable="false" src="covers/Attacca.jpg">
+        <img id="fts" draggable="false" src="covers/Face the sun.jpg">
+        <img id="s17" draggable="false" src="covers/Sector 17.jpg">
+        <img id="fml" draggable="false" src="covers/FML.jpg">
+        <img id="aly" draggable="false" src="covers/Always Yours.jpg">
+        <img id="sth" draggable="false" src="covers/Seventeenth Heaven.jpg">
+        <img id="swb" draggable="false" src="covers/Second wind BSS.jpg">
+    </div>
+
+    <div class="music-section>">
+    <div class="music-list">
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+            </ol>
+        </div>
+
+        <div id="boys-be" style="display:none;">
+            <ol>
+                <li><img src="covers/Boys be.jpg" width="10%"> Fronting</li>
+                <li><img src="covers/Boys be.jpg" width="10%"> Mansae</li>
+                <li><img src="covers/Boys be.jpg" width="10%"> When I Grow Up</li>
+                <li><img src="covers/Boys be.jpg" width="10%"> OMG</li>
+                <li><img src="covers/Boys be.jpg" width="10%"> Rock</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+
+        <div id="17-carat" style="display:none;">
+            <ol>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Ah Yeah</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> 20</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Adore you</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Shining Diamond</li>
+                <li><img src="covers/17 Carat.jpg" width="10%"> Jam Jam</li>
+            </ol>
+        </div>
+        
+        
+    <div class="music-container" style="display:none;">
+        <div class="music-info">
+            <h4 id="title">Ah Yeah</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <audio src="Songs/03 Ah Yeah.m4a" id="audio"></audio>
+
+        <div class="img-container">
+            <img src="sevcarat/17 Carat.jpg" alt="Cry image" id="cover">
+        </div>
+    
+
+    <div class="navigation">
+        <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+        </button>
+
+        <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+        </button>
+
+        <button id="next" class="action-btn">
+            <i class="fas fa-forward"></i>
+        </button>
+    </div>
+
+    
+
+</div>
+<a id="close" style="display:none;" >X</a>
+    </div>
+    <h1 style="display:none;">Music Player</h1>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
